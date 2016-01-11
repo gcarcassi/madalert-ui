@@ -50,12 +50,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Madalert Report</h1>
-                        <p>Madalert analyzes a mesh to find problematic patterns. Here are some examples:</p>
+                        <h1><b>Madalert:</b> <span style="font-size: smaller"><i> MaDDash mesh analysis</i></span></h1>
+                        <h2>Report</h2>
+                        <p>Analyzes a single mesh and reports problematic patterns. Examples:</p>
                         <ul>
-                            <li><b>Latency tests between all WLCG hosts Dashboard (psmad.grid.iu.edu)</b>: <a href="http://psmad.grid.iu.edu/maddash-webui/index.cgi?dashboard=Latency%20tests%20between%20all%20WLCG%20hosts">Mesh</a> - <a href="report.html?site=psmad.grid.iu.edu&mesh=Bandwidth tests between all WLCG hosts - BWCTL Test Between WLCG Bandwidth Hosts">Report</a></li>
-                            <li><b>Latency tests between all WLCG hosts Dashboard (maddash.aglt2.org)</b>: <a href="http://maddash.aglt2.org/maddash-webui/index.cgi?dashboard=Latency%20tests%20between%20all%20WLCG%20hosts">Mesh</a> - <a href="report.html?site=maddash.aglt2.org&mesh=Bandwidth tests between all WLCG hosts - BWCTL Test Between WLCG Bandwidth Hosts">Report</a></li>
-                            <li><b>USATLAS Mesh Config</b>: <a href="http://maddash.aglt2.org/maddash-webui/index.cgi?dashboard=USATLAS%20Mesh%20Config">Mesh</a> - <a href="report.html?site=maddash.aglt2.org&mesh=USATLAS%20Mesh%20Config%20-%20USATLAS%20Bandwidth%20Mesh%20Test">Report</a></li>
+                            <li><a href="report.html?site=psmad.grid.iu.edu&mesh=Bandwidth tests between all WLCG hosts - BWCTL Test Between WLCG Bandwidth Hosts">Latency tests between all WLCG hosts Dashboard (psmad.grid.iu.edu)</a></li>
+                            <li><a href="report.html?site=maddash.aglt2.org&mesh=Bandwidth tests between all WLCG hosts - BWCTL Test Between WLCG Bandwidth Hosts">Latency tests between all WLCG hosts Dashboard (maddash.aglt2.org)</a></li>
+                            <li><a href="report.html?site=maddash.aglt2.org&mesh=USATLAS%20Mesh%20Config%20-%20USATLAS%20Bandwidth%20Mesh%20Test">USATLAS Mesh Config</a></li>
+                        </ul>
+                        <h2>Diff</h2>
+                        <p>Analyzes two meshes and creates a new mesh comparing the two. Examples:</p>
+                        <ul>
+                            <li><a href="diff.html?site=psmad.grid.iu.edu&mesh=Bandwidth%20tests%20between%20all%20WLCG%20hosts%20-%20BWCTL%20Test%20Between%20WLCG%20Bandwidth%20Hosts&diffSite=maddash.aglt2.org&diffMesh=Bandwidth%20tests%20between%20all%20WLCG%20hosts%20-%20BWCTL%20Test%20Between%20WLCG%20Bandwidth%20Hosts">Latency tests between all WLCG hosts Dashboard (psmad.grid.iu.edu <i>vs</i> maddash.aglt2.org)</a></li>
+                            <li><a href="diff.html?site=maddash.aglt2.org&mesh=Dual-Stack%20Mesh%20Config%20-%20IPv4%20Bandwidth%20Test&diffMesh=Dual-Stack%20Mesh%20Config%20-%20IPv6%20Bandwidth%20Test">Dual-Stack Mesh Config (IPv4 vs IPv6)</a></li>
                         </ul>
                     </div>
                 </div>
